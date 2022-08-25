@@ -1018,7 +1018,7 @@ export class LifeChain {
       userInfo.avatar =
         "data:image/png;base64," + new Identicon(address, 80).toString();
     }
-    userInfo.name = userInfo.name || "Frog_" + address.slice(2, 6);
+    userInfo.name = userInfo.name || "LifeChainUser_" + address.slice(2, 6);
     userInfo.address = address;
 
     const username =

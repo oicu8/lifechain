@@ -55,10 +55,10 @@ export default class ProfileSettingsCard extends React.Component<Props, State> {
           username: userInfo.username,
           name: userInfo.name,
           avatar: userInfo.avatar.startsWith("data:image")
-            ? "https://tinyurl.com/yada8txd"
+            ? "https://tinyurl.com/LCTP1234"
             : userInfo.avatar,
-          cover: userInfo.cover || "https://tinyurl.com/ycozeccn",
-          bio: userInfo.bio || "#{lifechain}, #{lifechain}, #{lifechain}…",
+          cover: userInfo.cover || "https://tinyurl.com/LCTP123",
+          bio: userInfo.bio || "#{lifechain}, #{ETH}, #{funny}…",
         });
       })
       .catch(error => {
